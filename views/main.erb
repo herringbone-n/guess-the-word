@@ -1,0 +1,18 @@
+<h1><%= @guess_string %></h1>
+<% unless @try.empty? %>
+  <p>
+    Your guesses:
+    <br>
+    <%= @try_string %>
+  </p>
+<% else %>
+  <br/><br/>
+<% end %>
+<p><em>You have <%= @guesses %> guesses left.</em></p>
+<h2>Make a guess:</h2>
+<p>
+  <form action='/try' method='post'>
+    <input type='text' name='letter' pattern='[A-Za-z]{1}' title='Enter one letter.' autofocus required />
+    <input type='submit' value='Go' />
+  </form>
+</p>

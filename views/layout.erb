@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sinatra Word Guesser</title>
+    <link rel='stylesheet' type='text/css' href='reset.css'/>
+    <link rel='stylesheet' type='text/css' href='style.css'/>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1> GUESS THE WORD!!</h1>
+    <p>You will start with 7 guesses to figure out your Mystery Word.</p>
+    <p>With each guess a letter will replace a blank space OR you will lose a guess...</p>
+    <h2>GOOD LUCK!</h2>
+    <br>
+    <%= yield %>
+    <p><a href="/new">Start a New Game?</a></p>
+  </body>
+
+</html>

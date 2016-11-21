@@ -1,0 +1,32 @@
+body {
+  background-color: #DDD1C1;
+  color: #393939;
+  display: block;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2 {
+  margin: 1em;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 175%;
+}
+
+h2 {
+  font-size: 125%;
+}
+
+p {
+  margin: 0.5em;
+}
+
+em {
+  font-style: italic;
+}
+
+input[type='text'] {
+  width: 20px;
+}
